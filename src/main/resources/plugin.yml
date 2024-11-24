@@ -1,0 +1,10 @@
+name: WalkieTalkies
+version: '${project.version}'
+main: de.pertooo.walkietalkies.WalkieTalkies
+api-version: '1.21'
+
+commands:
+  walkieTalkie:
+    description: ""
+    usage: /walkieTalkie <args...>
+    aliases: [walkie, talkie, wt]
