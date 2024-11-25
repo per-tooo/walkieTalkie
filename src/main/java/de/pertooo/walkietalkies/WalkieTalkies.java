@@ -19,14 +19,11 @@ public final class WalkieTalkies extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
         instance = this;
     }
 
     @Override
-    public void onDisable() {
-        // Plugin shutdown logic
-    }
+    public void onDisable() {}
 
     private void registerCommands() {
         getCommand("walkieTalkie").setExecutor(new CMD_walkieTalkie());
